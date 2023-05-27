@@ -38,4 +38,9 @@
     color: aliceblue;
     opacity: 40%;
   }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 6rem;
+    }
+  }
 </style>
