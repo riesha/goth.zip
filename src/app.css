@@ -1,11 +1,10 @@
 :root {
-  font-family: "noto";
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "unifont";
 
-  color-scheme: light dark;
-  color: #D9BFC2;
-  background-color: #1b1b1b;
+  --accent: #ffbdef;
+
+  color: aliceblue;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,12 +16,19 @@
 *,
 *::after,
 *::before {
+  margin: 0;
   box-sizing: border-box;
 }
 
 @font-face {
   font-family: "noto";
-  src: url("noto.ttf") format("truetype");
+  src: url("/noto.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "unifont";
+  src: url("/unifont.woff") format("woff");
   font-display: swap;
 }
 
