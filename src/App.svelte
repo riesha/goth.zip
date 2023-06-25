@@ -5,19 +5,22 @@
   import About from "./pages/About.svelte";
   import Contact from "./pages/Contact.svelte";
   import Home from "./pages/Home.svelte";
+  import Error from "./pages/Error.svelte";
   let page;
   router("/", () => (page = Home));
   router("/about", () => (page = About));
   router("/contact", () => (page = Contact));
+  router("/*", () => (page = Error));
   router.start();
 </script>
 
 <svelte:head>
-  <title>goth.zip</title>
+  <title>˖⁺‧₊˚♡˚₊‧⁺˖</title>
 </svelte:head>
 <main>
   <Header />
-  <svelte:component this={page} />
+  <div class="content"><svelte:component this={page} /></div>
+
   <Footer />
 </main>
 
@@ -27,7 +30,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     font-family: "unifont";
+  }
+  .content {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
   }
 </style>

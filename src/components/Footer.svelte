@@ -42,6 +42,7 @@
     transition: all 0.2s ease-in;
   }
   a:hover {
+    color: var(--accent-deep);
   }
   ul {
     display: inherit;

@@ -2,7 +2,9 @@
   font-family: "unifont";
 
   --accent: #ffbdef;
-
+  --accent-deep: #fd62d7;
+  --bg: black;
+  --fg: aliceblue;
   color: aliceblue;
   background-color: black;
 
