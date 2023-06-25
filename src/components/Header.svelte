@@ -45,7 +45,7 @@
   ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   ul:first-child::before {
     content: "[";
@@ -59,5 +59,6 @@
     transition: all 0.2s ease-in;
   }
   a:hover {
+    color: var(--accent-deep);
   }
 </style>
