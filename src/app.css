@@ -25,13 +25,13 @@
 @font-face {
   font-family: "noto";
   src: url("/noto.woff2") format("woff2");
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
   font-family: "unifont";
   src: url("/unifont.woff2") format("woff2");
-  font-display: swap;
+  font-display: auto;
 }
 
 html {
