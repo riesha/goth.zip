@@ -1,8 +1,8 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { fade } from "svelte/transition";
 </script>
 
-<article in:fly={{ delay: 300, x: -200 }} out:fly={{ x: 200, duration: 300 }}>
+<article in:fade={{ delay: 300 }} out:fade={{ duration: 300 }}>
   <slot />
 </article>
 

@@ -21,6 +21,7 @@
   <div class="left">
     <p>goth.zip -// {date}</p>
   </div>
+
   <div class="right">
     <ul>
       <li><a href="/">home</a></li>
@@ -45,6 +46,7 @@
   ul {
     display: flex;
     list-style: none;
+    padding: 0;
     gap: 0.5rem;
   }
   ul:first-child::before {

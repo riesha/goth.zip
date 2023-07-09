@@ -3,12 +3,8 @@
 </script>
 
 <Article>
-  <h2>about me</h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eveniet ex
-    id aspernatur eum quaerat dolorem doloribus hic, modi quam facere sequi quo
-    quod quas veniam natus? Quidem, tempora libero.
-  </p>
+  <h1>about</h1>
+  <p>there's nothing here yet, please come back later!</p>
 </Article>
 
 <style>

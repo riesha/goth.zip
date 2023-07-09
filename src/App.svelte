@@ -33,9 +33,13 @@
     font-family: "unifont";
   }
   .content {
-    flex-grow: 1;
-
-    display: flex;
-    flex-direction: row;
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1;
+  }
+  .content > :global(*) {
+    grid-row: 1;
+    grid-column: 1;
   }
 </style>
