@@ -32,6 +32,11 @@ html {
   background-color: black;
 }
 
+.app {
+  background-color: black;
+
+}
+
 body {
   min-height: 100vh;
   padding: 0;
