@@ -22,7 +22,7 @@
 
 <style>
   footer {
-    margin-top: 1rem;
+    margin-block: 1rem;
     padding: 0.5rem;
     border: 1px solid aliceblue;
     border-radius: 10px;
@@ -54,4 +54,6 @@
     content: "|";
     margin-inline: 0.5rem;
   }
+  @media only screen and (max-width: 600px) {footer {width: 90vw;}} 
+
 </style>

@@ -25,21 +25,26 @@
 </main>
 
 <style>
+
   main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: "unifont";
+    min-height: 100vh;
+    min-width: 100%;
   }
   .content {
     grid-area: main;
     display: grid;
     grid-template-rows: 1;
     grid-template-columns: 1;
+    flex-grow: 1;
   }
   .content > :global(*) {
     grid-row: 1;
     grid-column: 1;
   }
+  @media only screen and (max-width: 600px) {main {width: 90vw;}} 
 </style>

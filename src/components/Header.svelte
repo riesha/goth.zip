@@ -63,4 +63,6 @@
   a:hover {
     color: var(--accent-deep);
   }
+  @media only screen and (max-width: 600px) {header {width: 90vw;}} 
+
 </style>

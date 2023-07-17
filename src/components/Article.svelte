@@ -12,7 +12,7 @@
     border: 1px solid aliceblue;
     border-radius: 10px;
     padding: 0.5rem;
-    height: 100ch;
+    min-height: 100%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -63,4 +63,6 @@
     border-bottom: none;
     width: 70%;
   }
+  @media only screen and (max-width: 600px) {article {width: 90vw;}} 
+
 </style>
