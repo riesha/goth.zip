@@ -54,6 +54,14 @@
     content: "|";
     margin-inline: 0.5rem;
   }
-  @media only screen and (max-width: 600px) {footer {width: 90vw;}} 
+  @media only screen and (max-width: 600px) {
+    footer {
+      width: 90vw;
+      font-size: 0.7rem;
+    }
 
+    li:not(:last-child)::after {
+      margin-inline: 0.2rem;
+    }
+  }
 </style>
